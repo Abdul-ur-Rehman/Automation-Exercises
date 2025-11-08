@@ -11,6 +11,7 @@ name = 'Abdul-ur-Rehman'
 password = 'abc123'
 
 options = webdriver.ChromeOptions()
+options.add_argument('--headless')
 options.add_argument("--start-maximized")
 driver = webdriver.Chrome(options=options)
 
